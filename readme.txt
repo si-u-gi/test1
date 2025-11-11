@@ -7,9 +7,16 @@ pull 후 push하기: 왜냐하면 원격 저장소와 github 일반 저장소 �
 
 이상한 짓 해서 환경 이상하게 만들지 말 것!
 
-Java: Switch to Standard Mode
+빌드, 실행하는 법
+./gradlew build
+cd build/libs
+java -jar hello-spring-0.0.1-SNAPSHOT.jar
+실행 확인
 
-1. ./gradlew build
-2. cd build/libs
-3. java -jar hello-spring-0.0.1-SNAPSHOT.jar
-4. 실행 확인
+
+***********중요***********
+    자동완성이 작동하지 않으면 Ctrl + Space를 누를 것.
+    Standard 모드가 아니더라도 source action을 사용할 수 있음.
+    Map cannot be resolved to a typeJava(16777218) 이런 오류가 발생하면 source action에서 import ~~ 하면 대부분 해결됨.
+
+
