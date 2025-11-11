@@ -13,10 +13,14 @@ cd build/libs
 java -jar hello-spring-0.0.1-SNAPSHOT.jar
 실행 확인
 
+실행 종료하는 법
+(실행중인 터미널에서) Ctrl + C
+
 
 ***********중요***********
     자동완성이 작동하지 않으면 Ctrl + Space를 누를 것.
     Standard 모드가 아니더라도 source action을 사용할 수 있음.
     Map cannot be resolved to a typeJava(16777218) 이런 오류가 발생하면 source action에서 import ~~ 하면 대부분 해결됨.
+    자바 터미널이 켜져야함 이상한 몽키스패너 누르셈
 
 

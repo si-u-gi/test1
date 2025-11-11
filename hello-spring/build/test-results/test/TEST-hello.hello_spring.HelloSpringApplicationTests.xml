@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.hello_spring.HelloSpringApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-11T11:21:22.628Z" hostname="codespaces-9090d9" time="1.173">
+<testsuite name="hello.hello_spring.HelloSpringApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-11T11:51:37.173Z" hostname="codespaces-9090d9" time="0.833">
   <properties/>
-  <testcase name="contextLoads()" classname="hello.hello_spring.HelloSpringApplicationTests" time="1.173"/>
-  <system-out><![CDATA[11:21:19.770 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.hello_spring.HelloSpringApplicationTests]: HelloSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-11:21:19.943 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.hello_spring.HelloSpringApplication for test class hello.hello_spring.HelloSpringApplicationTests
+  <testcase name="contextLoads()" classname="hello.hello_spring.HelloSpringApplicationTests" time="0.833"/>
+  <system-out><![CDATA[11:51:35.583 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.hello_spring.HelloSpringApplicationTests]: HelloSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:51:35.687 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.hello_spring.HelloSpringApplication for test class hello.hello_spring.HelloSpringApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,10 +14,10 @@
 
  :: Spring Boot ::               (v3.4.11)
 
-2025-11-11T11:21:20.837Z  INFO 108042 --- [hello-spring] [    Test worker] h.h.HelloSpringApplicationTests          : Starting HelloSpringApplicationTests using Java 17.0.9 with PID 108042 (started by codespace in /workspaces/test1/hello-spring)
-2025-11-11T11:21:20.850Z  INFO 108042 --- [hello-spring] [    Test worker] h.h.HelloSpringApplicationTests          : No active profile set, falling back to 1 default profile: "default"
-2025-11-11T11:21:22.240Z  INFO 108042 --- [hello-spring] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-11-11T11:21:22.598Z  INFO 108042 --- [hello-spring] [    Test worker] h.h.HelloSpringApplicationTests          : Started HelloSpringApplicationTests in 2.335 seconds (process running for 4.269)
+2025-11-11T11:51:36.186Z  INFO 24370 --- [hello-spring] [    Test worker] h.h.HelloSpringApplicationTests          : Starting HelloSpringApplicationTests using Java 17.0.9 with PID 24370 (started by codespace in /workspaces/test1/hello-spring)
+2025-11-11T11:51:36.187Z  INFO 24370 --- [hello-spring] [    Test worker] h.h.HelloSpringApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2025-11-11T11:51:36.910Z  INFO 24370 --- [hello-spring] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-11-11T11:51:37.162Z  INFO 24370 --- [hello-spring] [    Test worker] h.h.HelloSpringApplicationTests          : Started HelloSpringApplicationTests in 1.347 seconds (process running for 2.365)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
