@@ -1,4 +1,3 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic",
-    "java.server.launchMode": "Standard"
+    "java.compile.nullAnalysis.mode": "automatic"
 }

@@ -30,5 +30,5 @@ public class MemoryMemberRepository implements MemberRepository {
         // TODO Auto-generated method stub
         return null;
     }
-    
+
 }

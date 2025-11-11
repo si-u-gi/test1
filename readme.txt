@@ -6,3 +6,10 @@ github 특정 커밋으로 되돌아가는 법: git log 한 후 엔터 눌러서
 pull 후 push하기: 왜냐하면 원격 저장소와 github 일반 저장소 사이의 괴리가 생기면 골치아픔.
 
 이상한 짓 해서 환경 이상하게 만들지 말 것!
+
+Java: Switch to Standard Mode
+
+1. ./gradlew build
+2. cd build/libs
+3. java -jar hello-spring-0.0.1-SNAPSHOT.jar
+4. 실행 확인
