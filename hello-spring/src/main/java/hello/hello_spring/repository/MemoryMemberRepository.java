@@ -38,4 +38,7 @@ public class MemoryMemberRepository implements MemberRepository {
         return member;
     }
 
+    public void clearStore() {
+        store.clear();
+    }
 }
