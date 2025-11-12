@@ -1,5 +1,6 @@
 package hello.hello_spring.repository;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -15,26 +16,26 @@ public class MemoryMemberRepository implements MemberRepository {
 
     @Override
     public List<Member> findAll() {
-        // TODO Auto-generated method stub
-        return null;
+        return new ArrayList<>(store.values());
     }
 
     @Override
     public Optional<Member> findById(Long id) {
-        // TODO Auto-generated method stub
-        return Optional.empty();
+        return Optional.ofNullable(store.get(id));
     }
 
     @Override
     public Optional<Member> findByName(String name) {
-        // TODO Auto-generated method stub
-        return Optional.empty();
+        return store.values().stream()
+            .filter(member -> member.getName().equals(name))
+            .findAny();
     }
 
     @Override
     public Member save(Member member) {
-        // TODO Auto-generated method stub
-        return null;
+        member.setId(++sequence);
+        store.put(member.getId(), member);
+        return member;
     }
 
 }

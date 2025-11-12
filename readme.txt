@@ -22,5 +22,13 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
     Standard 모드가 아니더라도 source action을 사용할 수 있음.
     Map cannot be resolved to a typeJava(16777218) 이런 오류가 발생하면 source action에서 import ~~ 하면 대부분 해결됨.
     자바 터미널이 켜져야함 이상한 몽키스패너 누르셈
+        ex) a376f265 Validate documents [Done]
+            150402c1 Building [Done]
+            51892ebd Publish Diagnostics [Done]
+            037c7c93 Send Classpath Notifications [Done]
+            27ba2180 Building [Done]
+            c4015e9e Validate documents [Done]
+            5b94d328 Publish Diagnostics [Done]
+            f440176e Publish Diagnostics [Done]
 
 
