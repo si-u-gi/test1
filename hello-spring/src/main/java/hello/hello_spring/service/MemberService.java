@@ -8,8 +8,10 @@ import java.util.Optional;
 
 import hello.hello_spring.domain.Member;
 import hello.hello_spring.repository.MemberRepository;
+import jakarta.transaction.Transactional;
 
 // @Service
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
     

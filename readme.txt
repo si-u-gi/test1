@@ -31,4 +31,9 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
             5b94d328 Publish Diagnostics [Done]
             f440176e Publish Diagnostics [Done]
 
+H2 DB 실행 방법
+h2.sh 통합터미널 열기
+./h2.sh
+JDBC URL: jdbc:h2:tcp://localhost/~/test
+
 

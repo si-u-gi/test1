@@ -54,4 +54,4 @@ MVC: hello-static controller가 있는지 찾은 후, hello-static.html을 반�
 - MVC
 - API
 
-API: 
+테스트 코드를 잘 짜는게 코딩 잘하는 것.
