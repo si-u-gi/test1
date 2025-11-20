@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.hello_spring.service.MemberServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-11-20T09:23:53.831Z" hostname="codespaces-9090d9" time="0.006">
+<testsuite name="hello.hello_spring.service.MemberServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-11-20T13:12:15.875Z" hostname="codespaces-9090d9" time="0.004">
   <properties/>
   <testcase name="testFindOne()" classname="hello.hello_spring.service.MemberServiceTest" time="0.001"/>
-  <testcase name="testJoin()" classname="hello.hello_spring.service.MemberServiceTest" time="0.001"/>
-  <testcase name="중복_회원_예외()" classname="hello.hello_spring.service.MemberServiceTest" time="0.002"/>
+  <testcase name="testJoin()" classname="hello.hello_spring.service.MemberServiceTest" time="0.0"/>
+  <testcase name="중복_회원_예외()" classname="hello.hello_spring.service.MemberServiceTest" time="0.0"/>
   <testcase name="testFindMembers()" classname="hello.hello_spring.service.MemberServiceTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

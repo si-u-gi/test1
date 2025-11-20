@@ -5,7 +5,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import hello.hello_spring.repository.MemberRepository;
 import hello.hello_spring.service.MemberService;
-import jakarta.persistence.EntityManager;
 
 @Configuration
 public class SpringConfig {
@@ -21,6 +20,7 @@ public class SpringConfig {
     public MemberService memberService() {
         return new MemberService(memberRepository);
     }
+
 
     // @Bean
     // public MemberRepository memberRepository() {

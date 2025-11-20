@@ -36,4 +36,3 @@ h2.sh 통합터미널 열기
 ./h2.sh
 JDBC URL: jdbc:h2:tcp://localhost/~/test
 
-

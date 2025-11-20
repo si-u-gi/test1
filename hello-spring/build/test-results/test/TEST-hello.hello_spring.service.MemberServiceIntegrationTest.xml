@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.hello_spring.service.MemberServiceIntegrationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-20T13:12:15.638Z" hostname="codespaces-9090d9" time="0.235">
+  <properties/>
+  <testcase name="중복_회원_예외()" classname="hello.hello_spring.service.MemberServiceIntegrationTest" time="0.216"/>
+  <testcase name="회원가입()" classname="hello.hello_spring.service.MemberServiceIntegrationTest" time="0.018"/>
+  <system-out><![CDATA[2025-11-20T13:12:15.626Z  INFO 34847 --- [hello-spring] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [hello.hello_spring.service.MemberServiceIntegrationTest]: MemberServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-20T13:12:15.635Z  INFO 34847 --- [hello-spring] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration hello.hello_spring.HelloSpringApplication for test class hello.hello_spring.service.MemberServiceIntegrationTest
+START: execution(Long hello.hello_spring.service.MemberService.join(Member))
+START: execution(Optional hello.hello_spring.repository.SpringDataJpaMemberRepository.findByName(String))
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+END: execution(Optional hello.hello_spring.repository.SpringDataJpaMemberRepository.findByName(String)) 150ms
+START: execution(Member hello.hello_spring.repository.MemberRepository.save(Member))
+Hibernate: insert into member (name,id) values (?,default)
+END: execution(Member hello.hello_spring.repository.MemberRepository.save(Member)) 32ms
+END: execution(Long hello.hello_spring.service.MemberService.join(Member)) 186ms
+START: execution(Long hello.hello_spring.service.MemberService.join(Member))
+START: execution(Optional hello.hello_spring.repository.SpringDataJpaMemberRepository.findByName(String))
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+END: execution(Optional hello.hello_spring.repository.SpringDataJpaMemberRepository.findByName(String)) 6ms
+END: execution(Long hello.hello_spring.service.MemberService.join(Member)) 7ms
+START: execution(Long hello.hello_spring.service.MemberService.join(Member))
+START: execution(Optional hello.hello_spring.repository.SpringDataJpaMemberRepository.findByName(String))
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+END: execution(Optional hello.hello_spring.repository.SpringDataJpaMemberRepository.findByName(String)) 3ms
+START: execution(Member hello.hello_spring.repository.MemberRepository.save(Member))
+Hibernate: insert into member (name,id) values (?,default)
+END: execution(Member hello.hello_spring.repository.MemberRepository.save(Member)) 1ms
+END: execution(Long hello.hello_spring.service.MemberService.join(Member)) 4ms
+START: execution(Optional hello.hello_spring.service.MemberService.findOne(Long))
+START: execution(Optional hello.hello_spring.repository.MemberRepository.findById(Long))
+END: execution(Optional hello.hello_spring.repository.MemberRepository.findById(Long)) 5ms
+END: execution(Optional hello.hello_spring.service.MemberService.findOne(Long)) 6ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
