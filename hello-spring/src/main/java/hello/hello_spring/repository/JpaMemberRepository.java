@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import hello.hello_spring.domain.Member;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.TypedQuery;
 
 public class JpaMemberRepository implements MemberRepository {
 

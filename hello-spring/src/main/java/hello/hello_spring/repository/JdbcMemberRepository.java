@@ -1,6 +1,5 @@
 package hello.hello_spring.repository;
 
-import java.beans.Statement;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,12 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
 import javax.sql.DataSource;
-import javax.xml.crypto.Data;
-
 import org.springframework.jdbc.datasource.DataSourceUtils;
-
 import hello.hello_spring.domain.Member;
 
 public class JdbcMemberRepository implements MemberRepository {
